@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Hydrattz-Multipurpose-Alphabet-Letter-D-red.ico" type="image/x-icon">
+    <title>Ex. 20</title>
+    <style>
+        /*
+        seletores personalizados
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseudo-element
+        >  = children (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: pink;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+        a:active{
+            color: rgb(224, 96, 10);
+        }
+        a::before{
+            content: '[link] ';
+        }
+        a::after{
+            content: ' ==> ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <h2>Personalizando links</h2>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blanck">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo" target="_blanck">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blanck">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>

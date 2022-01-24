@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/Hydrattz-Multipurpose-Alphabet-Letter-D-red.ico" type="image/x-icon">
+    <title>ex. 21</title>
+    <style>
+        /*
+        a tag display define os tipos de apresentação dos blocos.
+        */
+        h1{/*box-level*/
+            background-color: lightgray;
+            height: 37px;
+            width: 235px;
+
+            /* escrita completa:
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkgray;
+            */
+
+            border: 5px solid darkgray; /* shot hand */
+            
+            /* escrita completa:
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+            padding: 10px 10px 10px 10px; /* shot hand ou padding: 10px; para todas as medidas iguais ou padding: 10px 20px; para medidas diferentes de top/bottom e right/left, logo top=bottom e right=left. */
+
+            /*margin: auto; centralização horizontal*/
+            /* escrita completa:
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+
+            margin: 10px 10px 10px 10px; /* shot hand ou margin: 10px auto 10px auto; */
+
+            /* escrita completa:
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: sienna;*/
+            outline: 3px dashed sienna; /* shot hand. */
+        }
+        a{/*inline-level*/
+            border-width: 10px;
+            border-style: double;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modelo de caixas</h1>
+    <h2>Exemplo de caixa box-level</h2>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links</a> são exemplos de caixas inline-level. Vamos ver como tudo isso funciona. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iure sapiente officia architecto tenetur commodi aspernatur, praesentium consectetur amet, quaerat deleniti possimus perspiciatis alias maxime, eius tempora. Illo, tempora impedit.</p>
+</body>
+</html>
